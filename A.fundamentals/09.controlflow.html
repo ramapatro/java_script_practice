@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>control flow</title>
+</head>
+<body>
+    <script>
+        // if(condition){ true
+        //     block of codes
+        // }
+        // if () return single value
+
+        // let isstudent = true;
+        // if(isstudent){
+        //     console.log('you are already a student')
+        // }
+        //     if (isstudent) console.log('you are a student');
+
+        // if(isstudent){
+        //     console.log("tu first clg re join he tapare student hebu")
+        // }
+        // else{
+        //     console.log("mu ta top student re")
+        // }
+
+        // nested IF/ELSE
+    // if (true) {
+    //         console.log("conditoin is satishfied");
+    //     if (true) {
+    //         console.log('condition nested if is satishfied');
+    //         if (true) console.log("condition one is satishfied")
+    //         else console.log("condition one is not satishfied")}
+    //     else console.log ("condition nested if is not satishfied")}
+    // else console.log("condition is not satishfied")
+
+    // else if
+     let age = Number(prompt("enter your age",18));
+     console.log(typeof age);//string
+     console.log(age);
+
+    // if (age <= 5){
+    //     console.log("choti batchi ho kya");
+    // } else if (age >5 && 10 >= age) {
+    //     console.log("ebe tike hambuduchi");
+    // } else if (age >10 && 18 <= age) {
+    //     console.log("mu ebe bada helini para...");
+    // } else if (age >18 && 25 <= age) {
+    //     console.log("c");
+    // } else if (age >25 && 40 >= age) {
+    //     console.log("adha jibana sarigalani waa");
+    // } else {
+    //     console.log("sarila katha bayasa sarila");
+    // }
+
+  // ternary operator
+let ternary=
+    age <= 5
+    ? "choti batchi ho kya"
+    : age > 5 && 10 >= age
+    ? "ebe tike hambuduchi"
+    : age > 10 && 18 >= age
+    ? "mu ebe bada helini para..."
+    : "adha jibana sarigalani waa"
+
+console.log(ternary);
+    </script>
+</body>
+</html>
